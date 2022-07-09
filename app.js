@@ -13,5 +13,5 @@ app.use(express.urlencoded({extended:true}))
 app.use('/blogs', blogRoutes)
 
 app.listen(8000, ()=>{
-    console.log('conectado y escuchando en el puerto => http://localhost:8000/')
+    console.log('Server UP running in http://localhost:8000/')
 })
